@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delicious Hotpot and BBQ</title>
+        <!-- fav icon -->
+        <link href="img/logo.png" rel="icon" type="image/png" sizes="16x16"/>
+        <!-- bootstrap css1 js2 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- fontawsome css1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- custom css -->
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- Start Header Section -->
+        <header class="col-12 container-fluid">
+            <!-- Start Navbar Section -->
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbars">
+                    <a href="index.html" class="navbar-brand mx-2">
+                        <img src="img/logo.png" style="width: 50px; height: 50px; border-radius: 50%;" alt="logo"/>
+                        <span class="h2" style="color: #F2D5D2;">Delicious Hot Pot & BBQ Buffet</span>
+                    </a>
+
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="fas fa-bars"></i></button>
+
+                    <div id="nav" class="navbar-collapse collapse justify-content-end me-5">
+                        <ul class="navbar-nav px-3 navbaruls">
+                            <li class="nav-item"><a href="#"  class="nav-link text-uppercase fw-bold mx-3">Home</a></li> <!--id="homebtn"-->
+                            <li class="nav-item"><a href="#package" class="nav-link text-uppercase fw-bold mx-3">Package</a></li>
+                            <li class="nav-item"><a href="#dessert" class="nav-link text-uppercase fw-bold mx-3">Dessert</a></li>
+                            <li class="nav-item"><a href="#order" class="nav-link text-uppercase fw-bold mx-3">Order</a></li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link text-uppercase fw-bold text-dark text-white dropdown-toggle mx-3" data-bs-toggle="dropdown">Contact</a>
+                                <ul class="dropdown-menu px-3" style="background-color: #F2D5D2;">
+                                    <li><a href="#" class="dropdown-item bg-secondary my-2">Ph: 09-787084988</a></li>
+                                    <li><a href="#" class="dropdown-item bg-secondary my-2">Ph: 09-789143888</a></li>
+                                    <li><a href="#" class="dropdown-item bg-secondary my-2">Ph: 09-778099488</a></li>
+                                    <li><a href="#" class="dropdown-item bg-secondary my-2">Ph: 09-790962688</a></li>
+                                </ul>
+                            </li>
+                        </uL>
+                    </div>
+                </nav>
+            <!-- End Navbar Section -->
+        </header>
+        <!-- End Header Section -->
+
+        <!-- Start Package Section -->
+        <section>
+            <!-- start title -->
+            <div id="package" class="col-12 text-center">
+                <h1 style="color: #F2D5D2;">Packages</h1>
+                    <p class="col-12 d-flex justify-content-center m-0" style="color: #F2D5D2; font-size: 18px;">Every Friday Night (7:00 PM to 10:00 PM) is Happy Hours</p>
+                    <div class="col-12 form-check form-switch d-flex justify-content-center">
+                        <p  style="color: #F2D5D2; font-size: 18px;">Regular Hours</p>
+                        <input type="checkbox" name="time" id="time" class="form-check-input mx-3" value="time" />
+                        <p  style="color: #F2D5D2; font-size: 18px;">Happy Hours</p>
+                    </div>                
+            </div>
+            <!-- end title -->
+
+            <div class="row">
+                <div class="container col-lg-4 col-md-6 col-sm-12 my-3 px-5" >
+                    <div id="normal" class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Normal</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="text-secondary">Adults</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="normalh" class="h5">23.99</span> (Hot Pot only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="normalb" class="h5">24.99</span> (BBQ only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="normalhb" class="h5">28.99</span> (Hot Pot & BBQ)</li>
+                            </ul>
+                            <h4 class="text-secondary">Kids</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="normalha" class="h5">9.99</span> (4-8 years, Hot Pot only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="normalba" class="h5">12.99</span> (4-8 years, BBQ only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="normalhba" class="h5">15.99</span> (9-12 years, Hot Pot & BBQ)</li>
+                            </ul>
+                            <h5 class="text-center text-secondary">(3 years and under free)</h5>
+                            <div class="card-footer d-flex justify-content-center align-items-center">
+                                <a href="#order"utton class="col-12 btn btn-outline-secondary bg-secondary btnnormals" style="color: #F2D5D2;">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-4 col-md-6 col-sm-12 my-3 px-5" >
+                    <div id="regular" class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Regular</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="text-secondary">Adults</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="regularh" class="h5">33.99</span> (Hot Pot only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="regularb" class="h5">34.99</span> (BBQ only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="regularhb" class="h5">38.99</span> (Hot Pot & BBQ)</li>
+                            </ul>
+                            <h4 class="text-secondary">Kids</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="regularha" class="h5">19.99</span> (4-8 years, Hot Pot only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="regularba" class="h5">22.99</span> (4-8 years, BBQ only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="regularhba" class="h5">25.99</span> (9-12 years, Hot Pot & BBQ)</li>
+                            </ul>
+                            <h5 class="text-center text-secondary">(3 years and under free)</h5>
+                            <div class="card-footer d-flex justify-content-center align-items-center">
+                                <a href="#order" class="col-12 btn btn-outline-secondary bg-secondary btnregulars" style="color: #F2D5D2;">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-4 col-md-6 col-sm-12 my-3 px-5" >
+                    <div id="premium" class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Premium</h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="text-secondary">Adults</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="premiumh" class="h5">43.99</span> (Hot Pot only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="premiumb" class="h5">44.99</span> (BBQ only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="premiumbh" class="h5">48.99</span> (Hot Pot & BBQ)</li>
+                            </ul>
+                            <h4 class="text-secondary">Kids</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="premiumha" class="h5">29.99</span> (4-8 years, Hot Pot only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="premiumba" class="h5">32.99</span> (4-8 years, BBQ only)</li>
+                                <li class="list-group-item bg-secondary" style="color: #F2D5D2;"><span>$</span><span id="premiumbha" class="h5">35.99</span> (9-12 years, Hot Pot & BBQ)</li>
+                            </ul>
+                            <h5 class="text-center text-secondary">(3 years and under free)</h5>
+                            <div class="card-footer d-flex justify-content-center align-items-center">
+                                <a href="#order" class="col-12 btn btn-outline-secondary bg-secondary btnpremiums" style="color: #F2D5D2;">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Package Section -->
+
+        <!-- Start Desert Section -->
+        <section >
+            <!-- start title -->
+            <div id="dessert" class="col-12 text-center">
+                <h1  style="color: #F2D5D2;">Dessert</h1>
+            </div>
+            <!-- end title -->
+            <div class="row py-5">
+                <div class="container col-lg-4 col-md-6 col-sm-12 my-3 px-5" >
+                    <div class="card" style="background-color: gray;">
+                        <div class="card-header">
+                            <h3 class="text-center" style="color: #F2D5D2;">Ice-cream</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Vanilla </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Matcha </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Chocolate </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Coconut </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Strawberry </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Mango </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Oreo </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-4 col-md-6 col-sm-12 my-3 px-5" >
+                    <div class="card" style="background-color: gray;">
+                        <div class="card-header">
+                            <h3 class="text-center" style="color: #F2D5D2;">Fruits</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Apple </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Watermelon </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Papaya </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Orange </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Pineapple </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Pear </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Kiwi </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-4 col-md-6 col-sm-12 my-3 px-5" >
+                    <div class="card" style="background-color: gray;">
+                        <div class="card-header">
+                            <h3 class="text-center" style="color: #F2D5D2;">Drinks</h3>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Water</li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Orange juice</li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Coca-Cola</li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Sprite</li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Soda(Premium Only)</li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Wine(Premium Only) </li>
+                                <li class="list-group-item text-secondary" style="font-size: 20px; background-color: #F2D5D2;">Beer free flow(Premium Only) </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Desert Section -->
+
+
+        <!-- Start Order Section -->
+        <section class="px-4">
+            <!-- start title -->
+            <div id="order" class="col-12 text-center">
+                <h1  style="color: gray;">Order</h1>
+            </div>
+            <!-- end title -->
+            <div class="row">
+                <div class="container col-lg-3 col-md-6 col-sm-12 my-3 ">
+                    <div class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Meat</h3>
+                        </div>
+                        <div class="card-body text-secondary">
+                            <div class="form-check linethrough"> <!-- 3,6,7,8,11,12,14 -->
+                                <input type="checkbox" name="beef" id="beef" class="form-check-input meats alls" value="1"/><label id="momo" for="beef">Beef MOMO</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="beef" id="beefb" class="form-check-input meats alls" value="2"/><label for="beefb">USA Beef Bacon</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="beef" id="beefp" class="form-check-input meats alls" value="3"/><label for="beefp">Beef with Pepper Sauce</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="pork" id="pork" class="form-check-input meats alls" value="4" /><label for="pork">Pork</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="pork" id="mpork" class="form-check-input meats alls" value="5" /><label for="mpork">Pork Malar</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="pork" id="bpork" class="form-check-input meats alls" value="6" /><label for="bpork">Bulgogi Pork</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="pork" id="porkp" class="form-check-input meats alls" value="7" /><label for="porkp">Pork with Pepper Sauce</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="pork" id="spork" class="form-check-input meats alls" value="8" /><label for="spork">Pork with Spicy Sauce</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="chicken" id="chicken" class="form-check-input meats alls" value="9" /><label for="chicken">Chicken</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="chicken" id="mchicken" class="form-check-input meats alls" value="10" /><label for="mchicken">Chicken Marlar</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="chicken" id="schicken" class="form-check-input meats alls" value="11" /><label for="schicken">Chicken with Spicy Sauce</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="chicken" id="kchicken" class="form-check-input meats alls" value="12" /><label for="kchicken">Korea Spicy Chicken</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="mutton" id="mutton" class="form-check-input meats alls" value="13" /><label for="mutton">Mutton</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="mutton" id="mutp" class="form-check-input meats alls" value="14" /><label for="mutp">Mutton with Pepper Sauce</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-3 col-md-6 col-sm-12 my-3">
+                    <div class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Vegetable</h3>
+                        </div>
+                        <div class="card-body text-secondary">
+                            <div class="form-check">
+                                <input type="checkbox" name="bro" id="bro" class="form-check-input veges alls" value="1"/><label for="bro">Broccoli</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="let" id="let" class="form-check-input veges alls" value="2"/><label for="let">Lettuce</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="co" id="co" class="form-check-input veges alls" value="3"/><label for="co">Corn</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="pum" id="pum" class="form-check-input veges alls" value="4" /><label for="pum">Pumpkin</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="po" id="po" class="form-check-input veges alls" value="5" /><label for="po">Potato</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="ws" id="ws" class="form-check-input veges alls" value="6" /><label for="ws">Water Spinach</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="lot" id="lot" class="form-check-input veges alls" value="7" /><label for="lot">Lotus</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="cc" id="cc" class="form-check-input veges alls" value="8" /><label for="cc">Chinese Cabbage</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="ta" id="ta" class="form-check-input veges alls" value="9" /><label for="ta">Taro</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="cm" id="cm" class="form-check-input veges alls" value="10" /><label for="cm">Chinese Mustard</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="cab" id="cab" class="form-check-input veges alls" value="11" /><label for="cab">Cabbage</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="rad" id="rad" class="form-check-input veges alls" value="12" /><label for="rad">Radish</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="tom" id="tom" class="form-check-input veges alls" value="13" /><label for="tom">Tomato</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="jt" id="jt" class="form-check-input veges alls" value="14" /><label for="jt">Japanese Tofu</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-3 col-md-6 col-sm-12 my-3">
+                    <div class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Mushrooms</h3>
+                        </div>
+                        <div class="card-body text-secondary">
+                            <div class="form-check">
+                                <input type="checkbox" name="eno" id="eno" class="form-check-input mushrooms alls" value="1"/><label for="eno">Enoki Mushrooms</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="mus" id="mus" class="form-check-input mushrooms alls" value="2"/><label for="mus">Mushrooms</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="mor" id="mor" class="form-check-input mushrooms alls" value="3"/><label for="mor">Morels</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="fun" id="fun" class="form-check-input mushrooms alls" value="4" /><label for="fun">Fungus</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="shi" id="shi" class="form-check-input mushrooms alls" value="5" /><label for="shi">Shitaki</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="kom" id="kom" class="form-check-input mushrooms alls" value="6" /><label for="kom">King Oyster Mushroom</label>
+                            </div>
+                            <h5 class="text-center">Rice & Noodles</h5>
+                            <div class="form-check">
+                                <input type="checkbox" name="ric" id="ric" class="form-check-input mushrooms alls" value="7" /><label for="ric">Rice</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="tsr" id="tsr" class="form-check-input mushrooms alls" value="8" /><label for="tsr">Taiwan Style Rice</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="gbn" id="gbn" class="form-check-input mushrooms alls" value="9" /><label for="gbn">Green Bean Noodles</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="in" id="in" class="form-check-input mushrooms alls" value="10" /><label for="in">Instant Noodles</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="on" id="on" class="form-check-input mushrooms alls" value="11" /><label for="on">Oil Noodles</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="sn" id="sn" class="form-check-input mushrooms alls" value="12" /><label for="sn">Shirataki Noodles</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="egg" id="egg" class="form-check-input mushrooms alls" value="13" /><label for="egg">Egg</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container col-lg-3 col-md-6 col-sm-12 my-3">
+                    <div class="card" style="background-color: #F2D5D2;">
+                        <div class="card-header">
+                            <h3 class="text-center text-secondary">Seafood</h3>
+                        </div>
+                        <div class="card-body text-secondary">
+                            <div class="form-check">
+                                <input type="checkbox" name="eno" id="shirmp" class="form-check-input seafoods alls" value="1"/><label for="shirmp">Shrimp</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="mus" id="salmon" class="form-check-input seafoods alls" value="2"/><label for="salmon">Salmon</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="mor" id="cal" class="form-check-input seafoods alls" value="3"/><label for="cal">Calamari</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="fun" id="scal" class="form-check-input seafoods alls" value="4" /><label for="scal">Scallop</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="shi" id="baby" class="form-check-input seafoods alls" value="5" /><label for="baby">Baby Scallop</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="kom" id="muss" class="form-check-input seafoods alls" value="6" /><label for="muss">Mussel</label>
+                            </div>
+                            <h5 class="text-center">Imported Meat & Fish Ball</h5>
+                            <div class="form-check">
+                                <input type="checkbox" name="ric" id="crab" class="form-check-input seafoods alls" value="7" /><label for="crab">Crab Stick</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="tsr" id="mpb" class="form-check-input seafoods alls" value="8" /><label for="mpb">Mushroom Pork Ball</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="gbn" id="sb" class="form-check-input seafoods alls" value="9" /><label for="sb">Squid Ball</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="in" id="pw" class="form-check-input seafoods alls" value="10" /><label for="pw">Pork Wonton</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="on" id="eggw" class="form-check-input seafoods alls" value="11" /><label for="eggw">Egg Wonton</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="sn" id="cheese" class="form-check-input seafoods alls" value="12" /><label for="cheese">Chicken cheese meat ball</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="egg" id="tuna" class="form-check-input seafoods alls" value="13" /><label for="tuna">Chicken tuna cheese ball</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <button id="addbtns" class="col-12 btn btn-outline-secondary bg-secondary btnpremiums fw-bold py-2 mb-4" style="color: #F2D5D2; font-size: 30px;">Add to order</button>
+                </div>
+            </div>
+        </section>
+        <!-- End Order Section -->
+        
+        <p id="toast">Order confirmed <i class="far fa-check-circle"></i></p>
+
+        <!-- Start Modal Box -->
+        <section class="modalboxs">
+            <div class="modalcontainers">
+                <button class="timesbtns"><i class="fas fa-times"></i></button>
+                <h3 class="modaltexts">Your items</h3>
+                <div class="lists">
+                    <ol id="listols"></ol>
+                </div>
+
+                <a href="#" class="col-12 btn btn-outline-secondary text-secondary orderbtns" style="background-color: #F2D5D2;">Order Now</a>
+            </div>
+        </section>
+        <!-- End Modal Box -->
+
+
+
+
+
+
+
+        <!-- bootstrap css1 js2 -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        <!-- custom js -->
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
+</html>
